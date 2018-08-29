@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EB1D1722136725E00683F0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1D1712136725E00683F0D /* AppDelegate.m */; };
+		9EB1D17A2136725E00683F0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1D1792136725E00683F0D /* Assets.xcassets */; };
+		9EB1D17D2136725E00683F0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1D17B2136725E00683F0D /* LaunchScreen.storyboard */; };
+		9EB1D1802136725E00683F0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1D17F2136725E00683F0D /* main.m */; };
+		9EB1D18A2136725E00683F0D /* lareinaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1D1892136725E00683F0D /* lareinaTests.m */; };
+		9EB1D1952136725E00683F0D /* lareinaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1D1942136725E00683F0D /* lareinaUITests.m */; };
+		9EB1D1B62136798800683F0D /* LLContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1D1B42136798800683F0D /* LLContentViewController.m */; };
+		9EB1D1B72136798800683F0D /* LLContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1D1B52136798800683F0D /* LLContentViewController.xib */; };
+		9EB1D1BB2136799500683F0D /* LLMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1D1B92136799500683F0D /* LLMineViewController.m */; };
+		9EB1D1BC2136799500683F0D /* LLMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1D1BA2136799500683F0D /* LLMineViewController.xib */; };
+		9EB1D1C021367A0D00683F0D /* LLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1D1BE21367A0D00683F0D /* LLHomeViewController.m */; };
+		9EB1D1C121367A0D00683F0D /* LLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1D1BF21367A0D00683F0D /* LLHomeViewController.xib */; };
+		9EB1D1C621367E9700683F0D /* LLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB1D1C421367E9700683F0D /* LLDetailViewController.m */; };
+		9EB1D1C721367E9700683F0D /* LLDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB1D1C521367E9700683F0D /* LLDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EB1D1862136725E00683F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EB1D1652136725E00683F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB1D16C2136725E00683F0D;
+			remoteInfo = lareina;
+		};
+		9EB1D1912136725E00683F0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EB1D1652136725E00683F0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EB1D16C2136725E00683F0D;
+			remoteInfo = lareina;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EB1D16D2136725E00683F0D /* lareina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lareina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB1D1702136725E00683F0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EB1D1712136725E00683F0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EB1D1792136725E00683F0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EB1D17C2136725E00683F0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EB1D17E2136725E00683F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB1D17F2136725E00683F0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EB1D1852136725E00683F0D /* lareinaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lareinaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB1D1892136725E00683F0D /* lareinaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lareinaTests.m; sourceTree = "<group>"; };
+		9EB1D18B2136725E00683F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB1D1902136725E00683F0D /* lareinaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lareinaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EB1D1942136725E00683F0D /* lareinaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lareinaUITests.m; sourceTree = "<group>"; };
+		9EB1D1962136725E00683F0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EB1D1B32136798800683F0D /* LLContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLContentViewController.h; sourceTree = "<group>"; };
+		9EB1D1B42136798800683F0D /* LLContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLContentViewController.m; sourceTree = "<group>"; };
+		9EB1D1B52136798800683F0D /* LLContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLContentViewController.xib; sourceTree = "<group>"; };
+		9EB1D1B82136799500683F0D /* LLMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLMineViewController.h; sourceTree = "<group>"; };
+		9EB1D1B92136799500683F0D /* LLMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLMineViewController.m; sourceTree = "<group>"; };
+		9EB1D1BA2136799500683F0D /* LLMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLMineViewController.xib; sourceTree = "<group>"; };
+		9EB1D1BD21367A0D00683F0D /* LLHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLHomeViewController.h; sourceTree = "<group>"; };
+		9EB1D1BE21367A0D00683F0D /* LLHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLHomeViewController.m; sourceTree = "<group>"; };
+		9EB1D1BF21367A0D00683F0D /* LLHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLHomeViewController.xib; sourceTree = "<group>"; };
+		9EB1D1C321367E9700683F0D /* LLDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LLDetailViewController.h; sourceTree = "<group>"; };
+		9EB1D1C421367E9700683F0D /* LLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLDetailViewController.m; sourceTree = "<group>"; };
+		9EB1D1C521367E9700683F0D /* LLDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EB1D16A2136725E00683F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB1D1822136725E00683F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB1D18D2136725E00683F0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EB1D1642136725E00683F0D = {
+			isa = PBXGroup;
+			children = (
+				9EB1D16F2136725E00683F0D /* lareina */,
+				9EB1D1882136725E00683F0D /* lareinaTests */,
+				9EB1D1932136725E00683F0D /* lareinaUITests */,
+				9EB1D16E2136725E00683F0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EB1D16E2136725E00683F0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D16D2136725E00683F0D /* lareina.app */,
+				9EB1D1852136725E00683F0D /* lareinaTests.xctest */,
+				9EB1D1902136725E00683F0D /* lareinaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EB1D16F2136725E00683F0D /* lareina */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D1A22136773E00683F0D /* viewController */,
+				9EB1D1702136725E00683F0D /* AppDelegate.h */,
+				9EB1D1712136725E00683F0D /* AppDelegate.m */,
+				9EB1D1792136725E00683F0D /* Assets.xcassets */,
+				9EB1D17B2136725E00683F0D /* LaunchScreen.storyboard */,
+				9EB1D17E2136725E00683F0D /* Info.plist */,
+				9EB1D17F2136725E00683F0D /* main.m */,
+			);
+			path = lareina;
+			sourceTree = "<group>";
+		};
+		9EB1D1882136725E00683F0D /* lareinaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D1892136725E00683F0D /* lareinaTests.m */,
+				9EB1D18B2136725E00683F0D /* Info.plist */,
+			);
+			path = lareinaTests;
+			sourceTree = "<group>";
+		};
+		9EB1D1932136725E00683F0D /* lareinaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D1942136725E00683F0D /* lareinaUITests.m */,
+				9EB1D1962136725E00683F0D /* Info.plist */,
+			);
+			path = lareinaUITests;
+			sourceTree = "<group>";
+		};
+		9EB1D1A22136773E00683F0D /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D1C221367E7D00683F0D /* html */,
+				9EB1D1AA213678FF00683F0D /* mine */,
+				9EB1D1A9213678F700683F0D /* content */,
+				9EB1D1A8213678E100683F0D /* home */,
+			);
+			path = viewController;
+			sourceTree = "<group>";
+		};
+		9EB1D1A8213678E100683F0D /* home */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D1BD21367A0D00683F0D /* LLHomeViewController.h */,
+				9EB1D1BE21367A0D00683F0D /* LLHomeViewController.m */,
+				9EB1D1BF21367A0D00683F0D /* LLHomeViewController.xib */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		9EB1D1A9213678F700683F0D /* content */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D1B32136798800683F0D /* LLContentViewController.h */,
+				9EB1D1B42136798800683F0D /* LLContentViewController.m */,
+				9EB1D1B52136798800683F0D /* LLContentViewController.xib */,
+			);
+			path = content;
+			sourceTree = "<group>";
+		};
+		9EB1D1AA213678FF00683F0D /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D1B82136799500683F0D /* LLMineViewController.h */,
+				9EB1D1B92136799500683F0D /* LLMineViewController.m */,
+				9EB1D1BA2136799500683F0D /* LLMineViewController.xib */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		9EB1D1C221367E7D00683F0D /* html */ = {
+			isa = PBXGroup;
+			children = (
+				9EB1D1C321367E9700683F0D /* LLDetailViewController.h */,
+				9EB1D1C421367E9700683F0D /* LLDetailViewController.m */,
+				9EB1D1C521367E9700683F0D /* LLDetailViewController.xib */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EB1D16C2136725E00683F0D /* lareina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB1D1992136725E00683F0D /* Build configuration list for PBXNativeTarget "lareina" */;
+			buildPhases = (
+				9EB1D1692136725E00683F0D /* Sources */,
+				9EB1D16A2136725E00683F0D /* Frameworks */,
+				9EB1D16B2136725E00683F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lareina;
+			productName = lareina;
+			productReference = 9EB1D16D2136725E00683F0D /* lareina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EB1D1842136725E00683F0D /* lareinaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB1D19C2136725E00683F0D /* Build configuration list for PBXNativeTarget "lareinaTests" */;
+			buildPhases = (
+				9EB1D1812136725E00683F0D /* Sources */,
+				9EB1D1822136725E00683F0D /* Frameworks */,
+				9EB1D1832136725E00683F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EB1D1872136725E00683F0D /* PBXTargetDependency */,
+			);
+			name = lareinaTests;
+			productName = lareinaTests;
+			productReference = 9EB1D1852136725E00683F0D /* lareinaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EB1D18F2136725E00683F0D /* lareinaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EB1D19F2136725E00683F0D /* Build configuration list for PBXNativeTarget "lareinaUITests" */;
+			buildPhases = (
+				9EB1D18C2136725E00683F0D /* Sources */,
+				9EB1D18D2136725E00683F0D /* Frameworks */,
+				9EB1D18E2136725E00683F0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EB1D1922136725E00683F0D /* PBXTargetDependency */,
+			);
+			name = lareinaUITests;
+			productName = lareinaUITests;
+			productReference = 9EB1D1902136725E00683F0D /* lareinaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EB1D1652136725E00683F0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lucky;
+				TargetAttributes = {
+					9EB1D16C2136725E00683F0D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9EB1D1842136725E00683F0D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EB1D16C2136725E00683F0D;
+					};
+					9EB1D18F2136725E00683F0D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EB1D16C2136725E00683F0D;
+					};
+				};
+			};
+			buildConfigurationList = 9EB1D1682136725E00683F0D /* Build configuration list for PBXProject "lareina" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EB1D1642136725E00683F0D;
+			productRefGroup = 9EB1D16E2136725E00683F0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EB1D16C2136725E00683F0D /* lareina */,
+				9EB1D1842136725E00683F0D /* lareinaTests */,
+				9EB1D18F2136725E00683F0D /* lareinaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EB1D16B2136725E00683F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB1D17D2136725E00683F0D /* LaunchScreen.storyboard in Resources */,
+				9EB1D17A2136725E00683F0D /* Assets.xcassets in Resources */,
+				9EB1D1BC2136799500683F0D /* LLMineViewController.xib in Resources */,
+				9EB1D1C721367E9700683F0D /* LLDetailViewController.xib in Resources */,
+				9EB1D1B72136798800683F0D /* LLContentViewController.xib in Resources */,
+				9EB1D1C121367A0D00683F0D /* LLHomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB1D1832136725E00683F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB1D18E2136725E00683F0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EB1D1692136725E00683F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB1D1802136725E00683F0D /* main.m in Sources */,
+				9EB1D1C021367A0D00683F0D /* LLHomeViewController.m in Sources */,
+				9EB1D1B62136798800683F0D /* LLContentViewController.m in Sources */,
+				9EB1D1C621367E9700683F0D /* LLDetailViewController.m in Sources */,
+				9EB1D1BB2136799500683F0D /* LLMineViewController.m in Sources */,
+				9EB1D1722136725E00683F0D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB1D1812136725E00683F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB1D18A2136725E00683F0D /* lareinaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EB1D18C2136725E00683F0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EB1D1952136725E00683F0D /* lareinaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EB1D1872136725E00683F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB1D16C2136725E00683F0D /* lareina */;
+			targetProxy = 9EB1D1862136725E00683F0D /* PBXContainerItemProxy */;
+		};
+		9EB1D1922136725E00683F0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EB1D16C2136725E00683F0D /* lareina */;
+			targetProxy = 9EB1D1912136725E00683F0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EB1D17B2136725E00683F0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EB1D17C2136725E00683F0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EB1D1972136725E00683F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EB1D1982136725E00683F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EB1D19A2136725E00683F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lareina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.lareina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EB1D19B2136725E00683F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lareina/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.lareina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EB1D19D2136725E00683F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lareinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.lareinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lareina.app/lareina";
+			};
+			name = Debug;
+		};
+		9EB1D19E2136725E00683F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lareinaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.lareinaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lareina.app/lareina";
+			};
+			name = Release;
+		};
+		9EB1D1A02136725E00683F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lareinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.lareinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lareina;
+			};
+			name = Debug;
+		};
+		9EB1D1A12136725E00683F0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lareinaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lucky.lareinaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = lareina;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EB1D1682136725E00683F0D /* Build configuration list for PBXProject "lareina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB1D1972136725E00683F0D /* Debug */,
+				9EB1D1982136725E00683F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB1D1992136725E00683F0D /* Build configuration list for PBXNativeTarget "lareina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB1D19A2136725E00683F0D /* Debug */,
+				9EB1D19B2136725E00683F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB1D19C2136725E00683F0D /* Build configuration list for PBXNativeTarget "lareinaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB1D19D2136725E00683F0D /* Debug */,
+				9EB1D19E2136725E00683F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EB1D19F2136725E00683F0D /* Build configuration list for PBXNativeTarget "lareinaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EB1D1A02136725E00683F0D /* Debug */,
+				9EB1D1A12136725E00683F0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EB1D1652136725E00683F0D /* Project object */;
+}
